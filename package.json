@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "env NODE_ENV=production eleventy --input=./src --output=./docs"
+    "build": "env NODE_ENV=production rm -rf dist/ && eleventy --input=./src --output=./dist"
   },
   "keywords": [],
   "author": "",
